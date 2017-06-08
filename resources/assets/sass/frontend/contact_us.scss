@@ -1,0 +1,55 @@
+div.contact-us
+{
+  .form-control
+  {
+    border-radius: 0;
+    border: 1px solid black;
+    font-size: 17px;
+  }
+
+  textarea
+  {
+    min-height: 200px;
+  }
+
+  h1
+  {
+    color: #e9168d;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  p
+  {
+    font-size: 17px;
+  }
+
+  ul
+  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li
+    {
+      line-height: 10px;
+
+      i
+      {
+        font-size: 30px;
+        margin-right: 4px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  button.btn-success
+  {
+    background-color: #e9168d;
+    border: 1px solid #e9168d;
+    width: 100%;
+    font-size: 23px;
+    border-radius: 0;
+  }
+}

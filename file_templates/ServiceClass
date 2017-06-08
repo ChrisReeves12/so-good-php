@@ -1,0 +1,23 @@
+<?php
+/**
+ * The {{ SERVICE_NAME }}Impl class definition.
+ *
+ * Default {{ SERVICE_NAME }} implementation
+ * @author Christopher Lee Reeves <ChrisReeves12@yahoo.com>
+ **/
+
+namespace App\Services;
+
+use App\Services\Contracts\I{{ SERVICE_NAME }};
+
+/**
+ * Class {{ SERVICE_NAME }}Impl
+ * @package App\Services
+ */
+class {{ SERVICE_NAME }}Impl implements I{{ SERVICE_NAME }}
+{
+  public function __construct()
+  {
+
+  }
+}

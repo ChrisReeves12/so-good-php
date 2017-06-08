@@ -1,0 +1,134 @@
+.invoice-section
+{
+  padding-top: 10px;
+
+  div.logo-section
+  {
+    display: flex;
+    width: 100%;
+
+    div.logo
+    {
+      width: 160px;
+      vertical-align: top;
+    }
+
+    div.title
+    {
+      margin-left: auto;
+
+      h1
+      {
+        color: grey;
+        vertical-align: top;
+        text-transform: uppercase;
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 10px;
+  }
+
+  div.address-date-section
+  {
+    display: flex;
+    font-size: 10px;
+
+    div.store-address
+    {
+      h2
+      {
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+    }
+
+    div.date-customer
+    {
+      text-align: right;
+      margin-left: auto;
+      padding-top: 20px;
+    }
+  }
+
+  div.customer-address-section
+  {
+    padding-top: 10px;
+    font-size: 10px;
+
+    display: flex;
+
+    & > div
+    {
+      h4
+      {
+        text-transform: uppercase;
+        font-size: 11px;
+        margin-bottom: 5px;
+      }
+    }
+
+    div.billing
+    {
+      margin-left: auto;
+    }
+  }
+
+  div.list-items-section
+  {
+    padding-bottom: 0;
+    padding-top: 20px;
+
+    table
+    {
+      border-bottom: 1px solid #bfbfbf;
+
+      tr
+      {
+        th
+        {
+          text-transform: uppercase;
+          text-align: left;
+          font-size: 8px;
+        }
+
+        td
+        {
+          font-size: 8px;
+          text-align: left;
+
+          &.details
+          {
+            ul
+            {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  div.total-section
+  {
+    width: 200px;
+    font-size: 10px;
+
+    table
+    {
+      width: 100%;
+
+      tr.grand-total
+      {
+        font-weight: bold;
+        color: green;
+      }
+    }
+  }
+}

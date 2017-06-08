@@ -1,0 +1,113 @@
+div.product-listing-page
+{
+  padding-top: 20px;
+  border-top: 1px solid #a5a5a5;
+  margin-top: 6px;
+
+  @include media-breakpoint-up(lg)
+  {
+    padding-top: 35px;
+    border-top: 0;
+    margin-top: 0;
+  }
+
+  div.pagination-controls
+  {
+    a
+    {
+      display: inline-block;
+      margin: 0 10px;
+      color: #e9168d;
+      font-size: 20px;
+
+      &:hover
+      {
+        text-decoration: none;
+      }
+    }
+
+    select
+    {
+      display: inline-block;
+    }
+  }
+
+  div.product-listing-banner
+  {
+    margin-bottom: 10px;
+  }
+
+  div.facet-section
+  {
+    div.facet-section-block
+    {
+      margin-bottom: 20px;
+
+      @include media-breakpoint-up(lg)
+      {
+        margin-bottom: 30px;
+      }
+
+      h4
+      {
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        @include media-breakpoint-up(lg)
+        {
+          font-size: 17px;
+        }
+      }
+
+      ul
+      {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li
+        {
+          font-size: 16px;
+
+          a
+          {
+            color: black;
+          }
+        }
+
+        &.price-filter
+        {
+          li.selected
+          {
+            font-weight: bold;
+          }
+        }
+
+        &.brand-facets
+        {
+          li
+          {
+            display: inline-block;
+            margin-right: 8px;
+            padding-right: 8px;
+            border-right: 1px solid black;
+
+            &:last-of-type
+            {
+              border-right: 0;
+            }
+
+            @include media-breakpoint-up(lg)
+            {
+              display: block;
+              margin: 0;
+              padding: 0;
+              border: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

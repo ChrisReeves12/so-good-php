@@ -1,0 +1,122 @@
+div.sales-order-page
+{
+  .error-messages
+  {
+    position: relative;
+    background-color: #d80000;
+    color: white;
+    padding: 15px 15px 5px 15px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+    .close-button
+    {
+      position: absolute;
+      right: 10px;
+      top: -2px;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .error
+    {
+      margin-bottom: 5px;
+
+      ul
+      {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      h4
+      {
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        margin: 0
+      }
+    }
+  }
+
+  .customer-data
+  {
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+    p
+    {
+      font-weight: bold;
+      margin-bottom: 3px;
+      margin-top: 3px;
+    }
+  }
+
+  .list-item
+  {
+    border: 1px solid #bfbfbf;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 1px 3px 3px -2px rgba(0,0,0,0.4);
+    margin-bottom: 15px;
+    position: relative;
+
+    .delete-button
+    {
+      position: absolute;
+      right: 8px;
+      top: 0;
+      z-index: 1000;
+      font-size: 25px;
+      color: #bfbfbf;
+    }
+
+    .list-item-info
+    {
+      font-weight: bold;
+      font-size: 15px;
+
+      .attribute-section
+      {
+        border: 1px solid #ababab;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        min-height: 200px;
+        width: 100%;
+        padding: 8px 0 0 12px;
+        font-size: 14px;
+        color: #6d6d6d;
+      }
+    }
+
+    .product-photo
+    {
+      img
+      {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+
+  .order-totals-section
+  {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+    p
+    {
+      font-weight: bold;
+      margin: 0 0;
+    }
+
+    p.grand-total
+    {
+      color: darkgreen;
+    }
+  }
+}

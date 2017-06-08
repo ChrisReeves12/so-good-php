@@ -1,0 +1,201 @@
+div.checkout
+{
+  div.missing-records
+  {
+    background-color: #c10000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    ul
+    {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  div.error-alert
+  {
+    background-color: #ff5a00;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  tr.grand-total
+  {
+    color: #007500;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .shipping-method
+  {
+    margin-bottom: 5px;
+  }
+
+  .product-listing
+  {
+    a
+    {
+      color: black;
+    }
+  }
+
+  .insufficient-stock
+  {
+    color: #a90000;
+    border-bottom: 1px solid #a90000;
+
+    a
+    {
+      color: #a90000;
+    }
+  }
+
+  tr
+  {
+    td.details
+    {
+      ul
+      {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+      }
+    }
+  }
+
+  div.addresses
+  {
+    border-top: 1px solid #dadada;
+    padding-top: 35px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 15px;
+
+    h4
+    {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    form
+    {
+      & > div
+      {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  p.address-save-notification
+  {
+    color: #3c763d;
+    padding-top: 9px;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  div.product-listing-mobile
+  {
+    margin-bottom: 25px;
+
+    .single-listing
+    {
+      border: 1px solid #bfbfbf;
+      padding: 38px 8px 19px 40px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      position: relative;
+
+      .form-control
+      {
+        width: 100px;
+        margin-bottom: 20px;
+      }
+
+      .total
+      {
+        font-weight: bold;
+        color: #2b542c;
+      }
+
+      .details
+      {
+        font-size: 13px;
+        border: 1px solid #cecece;
+        padding: 6px;
+        background-color: #ececec;
+        margin-bottom: 12px;
+
+        ul
+        {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+      }
+
+      .product-name
+      {
+        font-size: 15px;
+        font-weight: bold;
+
+        a
+        {
+          color: black;
+        }
+      }
+
+      .image-container
+      {
+        position: absolute;
+        bottom: 8px;
+        right: 10px;
+      }
+
+      a.delete-link
+      {
+        font-size: 24px;
+        position: absolute;
+        top: 1px;
+        left: 5px;
+        color: #c0352e;
+      }
+    }
+  }
+
+  .user-info
+  {
+
+    & > div
+    {
+      margin-top: 15px;
+    }
+
+    h5
+    {
+      padding-left: 15px;
+    }
+  }
+
+  .discount-code-form
+  {
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    padding: 20px 20px 10px;
+
+    h5
+    {
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+  }
+}

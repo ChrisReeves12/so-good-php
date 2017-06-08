@@ -1,0 +1,18 @@
+<?php
+/**
+ * The I{{ SERVICE_NAME }} interface definition.
+ *
+ * {{ SERVICE_NAME }} Contract
+ * @author Christopher Lee Reeves <ChrisReeves12@yahoo.com>
+ **/
+
+namespace App\Services\Contracts;
+
+/**
+ * Interface I{{ SERVICE_NAME }}
+ * @package App\Services\Contracts
+ */
+interface I{{ SERVICE_NAME }}
+{
+
+}

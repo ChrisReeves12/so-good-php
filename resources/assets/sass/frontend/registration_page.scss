@@ -1,0 +1,36 @@
+div.registration-page
+{
+  h1
+  {
+    font-size: 21px;
+    font-weight: normal;
+    color: #000000;
+    text-transform: uppercase;
+  }
+
+  div.tab-pane
+  {
+    padding: 18px;
+    border: 1px solid #cccccc;
+    border-top: 1px;
+    margin-bottom: 16px;
+  }
+
+  ul.nav
+  {
+    border-bottom: 1px solid #bbbbbb;
+
+    li.nav-item
+    {
+      a.nav-link
+      {
+        color: #808080;
+
+        &.active
+        {
+          color: #434343;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,390 @@
+// @import '../../../../node_modules/bootstrap/scss/bootstrap';
+
+body
+{
+  background-color: #ffffff;
+
+  #side_menu_bar
+  {
+    display: inline-block;
+  }
+
+  .btn-info, .btn-info:disabled {
+    color: #fff;
+    background-color: #3c763d;
+    border-color: #266327;
+  }
+
+  .btn-info:hover, .btn-info:active, .btn-info:focus {
+    color: #fff;
+    background-color: #39843a;
+    border-color: #2a6156;
+  }
+
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #3c763d;
+  }
+
+  .btn-danger {
+    color: #fff;
+    background-color: #929292;
+    border-color: #909090;
+  }
+
+  .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+    color: #fff;
+    background-color: #929292;
+    border-color: #8a8888;
+  }
+
+  a:hover
+  {
+    text-decoration: none;
+  }
+
+  div.banner-image-uploader
+  {
+    margin-bottom: 50px;
+
+    input
+    {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    div.image-display-area
+    {
+      border: 1px solid #9b9b9b;
+      min-height: 160px;
+      width: 100%;
+      background-color: #cacaca;
+      margin-bottom: 10px;
+
+      img
+      {
+        max-width: 100%;
+      }
+
+      h5
+      {
+        text-align: center;
+        color: white;
+        margin-top: 67px;
+        font-weight: bold;
+        font-size: 19px;
+      }
+    }
+
+    h4
+    {
+      font-size: 16px;
+      font-weight: bold;
+      color: #5d5d5d;
+    }
+  }
+
+  input:focus, input:active
+  {
+    outline-width: 0;
+  }
+
+  [type="checkbox"], [type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 5px;
+  }
+
+  .btn
+  {
+    margin-right: 4px;
+  }
+
+  .no-image-notice
+  {
+    border: 1px solid #afaeae;
+    text-align: center;
+    padding: 56px 0;
+    font-size: 19px;
+    color: white;
+    background-color: #dcdada;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  h1
+  {
+    font-size: 20px;
+    margin: 35px 0 20px 0;
+    color: #277d29;
+  }
+
+  .form-group.has-danger
+  {
+    ul.errors
+    {
+      padding: 0;
+      margin: 6px 0 0 0;
+      list-style: none;
+      color: #c90000;
+    }
+
+    .form-control
+    {
+      border: 1px solid #c90000;
+    }
+  }
+
+  .form-control
+  {
+    border-radius: 2px;
+  }
+
+  label
+  {
+    font-weight: bold;
+    font-size: 14px;
+    color: #787878;
+  }
+
+  label.required:before
+  {
+    content: '*';
+    color: red;
+    font-size: 14px;
+  }
+
+  .tab-content
+  {
+    margin-top: 30px;
+  }
+
+  nav.top-nav
+  {
+    min-height: 25px;
+    background-color: #209666;
+    padding: 10px 0;
+
+    div.logo-section
+    {
+      width: 245px;
+      display: inline-block;
+    }
+
+    ul
+    {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      vertical-align: top;
+
+      li
+      {
+        display: inline-block;
+        margin-right: 10px;
+        max-width: 112px;
+
+        a
+        {
+          text-decoration: none;
+          color: white;
+        }
+
+        a:hover
+        {
+          text-decoration: none;
+        }
+
+        img.icon
+        {
+          display: inline-block;
+          max-width: 25%;
+          vertical-align: middle;
+        }
+
+        div.label
+        {
+          display: inline-block;
+          max-width: 60%;
+          vertical-align: middle;
+          font-size: 13px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+
+  aside.admin-sidebar
+  {
+    width: 215px;
+    margin-right: 35px;
+    background-color: #485969;;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+
+    div.side-bar-entry
+    {
+      padding: 10px 15px;
+      border-bottom: 1px solid #3b4954;
+      position: relative;
+
+      .expand-arrow
+      {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 10;
+        width: 12px;
+        height: 12px;
+        cursor: pointer;
+
+        img
+        {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+
+      .side-bar-entry-links
+      {
+        position: absolute;
+        left: 215px;
+        width: 190px;
+        background: #3a4651;
+        top: 0;
+        padding: 13px;
+        font-size: 14px;
+        z-index: 20;
+
+        a
+        {
+          color: white;
+          text-decoration: none;
+        }
+
+        ul
+        {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+
+          li
+          {
+            margin-bottom: 10px;
+
+            img
+            {
+              max-width: 14px;
+              max-height: 14px;
+            }
+          }
+        }
+      }
+
+      img.icon
+      {
+        display: inline-block;
+        max-width: 27px;
+      }
+
+      div.label
+      {
+        display: inline-block;
+        max-width: 100px;
+        font-size: 14px;
+        font-weight: normal;
+        vertical-align: middle;
+        margin-left: 7px;
+      }
+    }
+
+    div.side-bar-entry.selected
+    {
+      background-color: #3a4651;
+    }
+
+    div.side-bar-entry:last-of-type
+    {
+      border-bottom: none;
+    }
+  }
+
+  div.main
+  {
+    width: 80%;
+    vertical-align: top;
+    display: inline-block;
+    padding-bottom: 300px;
+
+
+    .photo-upload-section
+    {
+      input[type="file"]
+      {
+        display: block;
+        margin-bottom: 12px;
+      }
+
+      label
+      {
+        font-size: 15px;
+      }
+
+      .btn
+      {
+        display: block;
+        margin-bottom: 8px;
+        width: 100%;
+      }
+
+      .thumbnail-container
+      {
+        max-width: 100%;
+        max-height: 100%;
+        min-width: 100px;
+        margin-bottom: 10px;
+
+        img
+        {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+
+    .alert
+    {
+      margin-top: 32px;
+
+      h3
+      {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      ul
+      {
+        padding: 0;
+        margin: 4px 0 15px 21px;
+        list-style: none;
+      }
+    }
+
+    // Import other style pages
+    @import "admin-home";
+    @import "product";
+    @import "list_page";
+    @import "product-category";
+    @import "stock-location";
+    @import "sales-order";
+    @import "affiliate";
+    @import "logs";
+    @import "product-category-list";
+  }
+
+  @import "invoice";
+}

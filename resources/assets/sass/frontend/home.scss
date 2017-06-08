@@ -1,0 +1,205 @@
+div.page-home-index
+{
+  div.home-content-area
+  {
+    margin-top: 32px;
+
+    div.home-categories-section
+    {
+      margin-top: 27px;
+
+      h2{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: normal;
+      }
+
+      div.row
+      {
+        margin-bottom: 30px;
+
+        div.home-category
+        {
+          position: relative;
+          margin-bottom: 30px;
+          text-align: center;
+
+          @include media-breakpoint-up(sm) {
+            margin-bottom: 0;
+            text-align: left;
+          }
+
+          .cat-name
+          {
+            position: absolute;
+            z-index: 20;
+            font-weight: bold;
+            color: white;
+            top: 40%;
+            left: 0;
+            width: 100%;
+            font-family: arial black;
+            text-shadow: rgba(0,0,0,0.5) -1px 1px 1px;
+            text-transform: uppercase;
+            font-size: 33px;
+            text-align: center;
+
+            @include media-breakpoint-up(sm) {
+              font-size: 16px;
+              padding-left: 0;
+            }
+
+            @include media-breakpoint-up(md) {
+              font-size: 20px;
+            }
+
+            @include media-breakpoint-up(lg) {
+              font-size: 28px;
+            }
+          }
+        }
+      }
+
+      div.mini-box
+      {
+
+        a.mini-box-image-link
+        {
+          display: block;
+          width: 100%;
+          text-align: center;
+          margin-bottom: 4px;
+
+          img
+          {
+            max-height: 140px;
+            max-width: 100%;
+
+            @include media-breakpoint-up(md)
+            {
+              max-height: 200px;
+            }
+          }
+        }
+
+        a.product-name-section
+        {
+          color: black;
+          display: block;
+          height: 90px;
+
+          @include media-breakpoint-up(md)
+          {
+            height: 120px;
+          }
+
+          p
+          {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+
+            &.brand-name
+            {
+              font-size: 15px;
+
+              @include media-breakpoint-up(md) {
+                font-size: 17px;
+              }
+            }
+
+            &.product-name
+            {
+              font-weight: bold;
+              text-transform: uppercase;
+              font-size: 11px;
+
+              @include media-breakpoint-up(md)
+              {
+                font-size: 13px;
+              }
+            }
+          }
+
+          &:hover
+          {
+            text-decoration: none;
+          }
+        }
+
+        div.product-price-section
+        {
+          text-align: center;
+          font-size: 16px;
+
+          @include media-breakpoint-up(sm) {
+            font-size: 18px;
+          }
+
+          span.list-price
+          {
+            text-decoration: line-through;
+            margin-right: 6px;
+          }
+
+          span.store-price
+          {
+            color: #e9168d;
+          }
+        }
+
+        a.add-to-cart
+        {
+          background-color: #e9168d;
+          color: white;
+          display: block;
+          width: 100px;
+          text-align: center;
+          text-transform: lowercase;
+          margin: 0 auto;
+          padding: 3px 2px;
+          font-size: 16px;
+
+          &:hover
+          {
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+
+      div.vlogger-section {
+        div.vlogger-entry {
+          p.vlogger-name {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 15px;
+          }
+
+          img {
+            display: block;
+            max-width: 100%;
+
+            @include media-breakpoint-up(sm) {
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  div.top-banner {
+    display: inline-table;
+
+    img {
+      padding: 2px;
+    }
+  }
+  div.banner_common {
+      display: table-cell;
+      padding: 0px;
+  }
+}

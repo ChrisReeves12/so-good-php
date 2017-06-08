@@ -1,0 +1,83 @@
+#logs
+{
+  .log-entry
+  {
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 4px;
+    position: relative;
+
+    .extra_data
+    {
+      font-size: 12px;
+      color: #6d6d6d;
+    }
+
+    .time
+    {
+      position: absolute;
+      font-size: 11px;
+      right: 10px;
+      top: 6px;
+      color: #868686;
+    }
+
+    .stack_trace
+    {
+      background-color: #f3f3f3;
+      padding: 7px;
+      color: #757575;
+      font-size: 12px;
+      margin-top: 5px;
+      border-radius: 3px;
+      position: relative;
+      overflow: hidden;
+
+      &.closed
+      {
+        height: 64px;
+      }
+
+      .expander
+      {
+        position: absolute;
+        right: 11px;
+        top: 0;
+        font-size: 25px;
+        color: #afafaf;
+      }
+    }
+
+    h5
+    {
+      margin: 5px 0 6px 0;
+    }
+
+    .file, .line
+    {
+      font-size: 12px;
+    }
+
+    .line
+    {
+      color: #afafaf;
+    }
+
+    div.type
+    {
+      font-size: 12px;
+      font-weight: bold;
+
+      &.error
+      {
+        color: #c90000;
+      }
+
+      &.info
+      {
+        color: orange;
+      }
+    }
+  }
+}
